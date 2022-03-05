@@ -1,12 +1,12 @@
 :root{
     --fonts: #f3f3f3;
+    --dark-font: #0C0C0C;
 }
-/* Smaller than standard 960 (devices and browsers) */
-/* Telas menores que 959*/
-@media only screen and (max-width: 959px) {
-    p{
-        font-size: 10px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins&display=swap');
+
+*{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 #hero{
@@ -26,9 +26,20 @@
 #name{
     color: var(--fonts);
     font-size: 12vh;
+    letter-spacing: 2px;
+}
+.btn:focus{
+    box-shadow: none;
 }
 #btn-about{
     color: var(--fonts);
     border-color: var(--fonts);
-    
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#btn-about:hover{
+    color: var(--dark-font);
+    border-color: none;
+    background-color: var(--fonts);
+    margin-top: 20px;
 }
