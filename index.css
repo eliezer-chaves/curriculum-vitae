@@ -13,11 +13,11 @@
 }
 #cv{
     color: var(--fonts);
-    font-size: 3vw;
+    font-size: 6vw;
 }
 #name{
     color: var(--fonts);
-    font-size: 8vw;
+    font-size: 12vw;
 }
 #btn-about{
     color: var(--fonts);
