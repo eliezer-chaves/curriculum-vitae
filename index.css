@@ -1,6 +1,14 @@
 :root{
     --fonts: #f3f3f3;
 }
+/* Smaller than standard 960 (devices and browsers) */
+/* Telas menores que 959*/
+@media only screen and (max-width: 959px) {
+    p{
+        font-size: 10px;
+    }
+}
+
 #hero{
     background-image: url('lib/bg-hero.png');
     background-size: cover;
@@ -13,13 +21,14 @@
 }
 #cv{
     color: var(--fonts);
-    font-size: 6vw;
+    
 }
 #name{
     color: var(--fonts);
-    font-size: 12vw;
+    font-size: 12vh;
 }
 #btn-about{
     color: var(--fonts);
     border-color: var(--fonts);
+    
 }
