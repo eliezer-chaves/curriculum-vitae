@@ -1,0 +1,25 @@
+:root{
+    --fonts: #f3f3f3;
+}
+#hero{
+    background-image: url('lib/bg-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cv{
+    color: var(--fonts);
+    font-size: 3vw;
+}
+#name{
+    color: var(--fonts);
+    font-size: 8vw;
+}
+#btn-about{
+    color: var(--fonts);
+    border-color: var(--fonts);
+}
