@@ -1,6 +1,6 @@
 :root{
-    --white-font: #f3f3f3;
-    --dark-font: #0C0C0C;
+    --white: #f3f3f3;
+    --dark: #0C0C0C;
     --grey: #888888;
 }
 *{
@@ -10,7 +10,7 @@ body{
     background-image: url('lib/bgHero.png');
     background-size: cover;
     background-repeat: no-repeat;
-    color: var(--white-font);
+    color: var(--white);
 }
 #header{
     display: flex;
@@ -18,7 +18,7 @@ body{
     align-items: center;
     height: 10vh; 
     background: rgba(12, 12, 12, 0.75);
-    color: var(--white-font);
+    color: var(--white);
     justify-content: space-around;
     position: fixed;
     top: 0;
@@ -26,18 +26,18 @@ body{
     width: 100%;
 }
 .nav-link{
-    color: var(--white-font);
+    color: var(--white);
 }
 .nav-link:hover{
     cursor: pointer;
-    color: var(--white-font);
+    color: var(--white);
     font-weight: bold;
 }
 a{
     color: inherit;
 }
 a:focus{
-    color: var(--white-font);
+    color: var(--white);
 }
 a:visited{
     color: inherit;
@@ -55,7 +55,7 @@ a:active{
     align-items: center;
 }
 #name{
-    color: var(--white-font);
+    color: var(--white);
     font-size: 12vh;
     letter-spacing: 2px;
 }
@@ -67,15 +67,15 @@ a:active{
     box-shadow: none;
 }
 #btn-about{
-    color: var(--white-font);
-    border-color: var(--white-font);
+    color: var(--white);
+    border-color: var(--white);
     margin-top: 20px;
     border-radius: 20px;
 }
 .arrow{
     height: 15px;
     width: 15px;
-    color: var(--white-font);
+    color: var(--white);
     margin-left: 10px;
 }
 @media (hover: hover) {
@@ -86,9 +86,9 @@ a:active{
         cursor: pointer;
     }
     #btn-about:hover{
-        color: var(--dark-font);
+        color: var(--dark);
         border-color: none;
-        background-color: var(--white-font);
+        background-color: var(--white);
         margin-top: 20px;
     }
   }
@@ -101,11 +101,11 @@ a:active{
    }   
     /* Dropdown Button */
     .dropbtn {
-        background-color: var(--dark-font);
+        background-color: var(--dark);
     }
     /* Dropdown button on hover & focus */
     .dropbtn:hover, .dropbtn:focus {
-        background-color: var(--dark-font);
+        background-color: var(--dark);
     }
     /* The container <div> - needed to position the dropdown content */
     .dropdown {
@@ -126,7 +126,7 @@ a:active{
     
     /* Links inside the dropdown */
     .dropdown-content a {
-        color: var(--white-font);
+        color: var(--white);
         background-color: #171717;
         padding: 12px 16px;
         text-decoration: none;
@@ -151,7 +151,7 @@ a:active{
 .section-title::after{
     content: "";
     width: 150px;
-    background-color: var(--white-font);
+    background-color: var(--white);
     height: 2px;
     display: block;
     margin: 0 auto;
@@ -159,7 +159,7 @@ a:active{
     border-radius: 4px;
 }
 #about{
-    background-color: var(--dark-font);
+    background-color: var(--dark);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,25 +236,25 @@ a:active{
     font-size: 15px;
 }
 #button-contato{
-    background-color: var(--dark-font);
-    border: solid 2px var(--white-font);
-    color: var(--white-font);
+    background-color: var(--dark);
+    border: solid 2px var(--white);
+    color: var(--white);
 }
 #button-contato:hover{
-    background-color: var(--white-font);
+    background-color: var(--white);
     font-weight: bold;
-    color: var(--dark-font);
+    color: var(--dark);
 }
 #download-cv{
-    background-color: var(--white-font);
+    background-color: var(--white);
     font-weight: bold;
-    color: var(--dark-font);
+    color: var(--dark);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #download-cv:hover{
-    background-color: var(--dark-font);
-    border: solid 2px var(--white-font);
-    color: var(--white-font);
+    background-color: var(--dark);
+    border: solid 2px var(--white);
+    color: var(--white);
 }
