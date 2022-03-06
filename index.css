@@ -37,7 +37,7 @@ a{
     color: inherit;
 }
 a:focus{
-    color: inherit;
+    color: var(--white-font);
 }
 a:visited{
     color: inherit;

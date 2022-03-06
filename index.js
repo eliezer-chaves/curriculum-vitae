@@ -31,6 +31,6 @@ function myFunction() {
     }
   }
 
-  function tiraFoco(){
-      
+  function linkBranco(){
+      document.getElementById('link-taubate').style.color = "#f3f3f3";
   }
