@@ -5,6 +5,7 @@
 }
 *{
     font-family: 'Poppins', sans-serif;
+    
 }
 body{
     background-image: url('lib/bgHero.png');
@@ -58,6 +59,7 @@ a:active{
     color: var(--white);
     font-size: 12vh;
     letter-spacing: 2px;
+    
 }
 .btn{
     padding-left: 20px;
@@ -93,7 +95,7 @@ a:active{
     }
   }
 /*Media Query para o header*/
-@media (max-width: 549px) 
+@media (max-width: 569px) 
 {
     .lista
    {
@@ -138,7 +140,7 @@ a:active{
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {display:block;}
 }
-@media  (min-width: 550px) {
+@media  (min-width: 570px) {
     #menu-icon{
         display: none;
     }
@@ -170,9 +172,11 @@ a:active{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    
 }
 #description-text{
     text-align: justify;
+    font-family: "Lucida Console";
 }
 #information{
     display: flex;
@@ -244,6 +248,11 @@ a:active{
     background-color: var(--white);
     font-weight: bold;
     color: var(--dark);
+}
+#button-contato:focus{
+    background-color: var(--dark);
+    border: solid 2px var(--white);
+    color: var(--white);
 }
 #download-cv{
     background-color: var(--white);

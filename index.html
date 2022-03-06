@@ -31,7 +31,7 @@
         <div class="dropdown">
             <img id="menu-icon" src="lib/gridicon.svg" alt="" onclick="myFunction()" class="dropbtn">
             <div id="myDropdown" class="dropdown-content">
-                <a href="#">Home</a>
+                <a onclick="return scrollToHome()">Home</a>
                 <a onclick="return scrollToAbout()">Sobre</a>
                 <a href="#">Experiência</a>
                 <a href="#">Formação</a>
@@ -41,7 +41,9 @@
 
         <div class="lista">
             <ul class="nav ">
-
+                <li class="nav-item">
+                    <a class="nav-link" onclick="scrollToHome()">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" onclick="scrollToAbout()">Sobre</a>
                 </li>
@@ -73,7 +75,7 @@
         <div id="description" class="description container w-75">
             <div class="text-discription">
                 <p id="description-text" class="description">
-                    Busco um emprego na área de tecnologia onde possa agregar meus conhecimentos em mecânica e tecnologia e assim adquirir experiência profissional e pessoal para somar junto à organização elevando o nível da empresa, também estou disposto a novos desafios.  
+                    Busco um emprego onde possa agregar meus conhecimentos em tecnologia e assim adquirir experiência profissional e pessoal para somar junto à organização elevando o nível da empresa, também estou disposto a novos desafios.  
                 </p>
             </div>
         </div>
