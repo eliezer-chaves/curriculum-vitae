@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url('lib/bg-hero.png');
+    background-image: url('lib/bgHero.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
