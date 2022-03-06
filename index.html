@@ -26,16 +26,24 @@
                 <img src="lib/marca.svg" alt="">
             </a>
         </div>
-        <span >
-            <img id="menu-icon" src="lib/gridicon.svg" alt="">
-        </span>
+
+        <!-- Menu flutuante -->
+        <div class="dropdown">
+            <img id="menu-icon" src="lib/gridicon.svg" alt="" onclick="myFunction()" class="dropbtn">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Home</a>
+                <a onclick="return scrollToAbout()">Sobre</a>
+                <a href="#">Experiência</a>
+                <a href="#">Formação</a>
+                <a href="#">Contato</a>
+            </div>
+          </div>
+
         <div class="lista">
             <ul class="nav ">
-                <li class="nav-item nav-justified">
-                    <a class="nav-link">Home</a>
-                </li>
+
                 <li class="nav-item">
-                    <a class="nav-link">Sobre</a>
+                    <a class="nav-link" onclick="scrollToAbout()">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link">Experiência</a>
@@ -53,15 +61,76 @@
     <div id="hero" class="container-fluid ">
         <h3 id="cv" class="">Curriculum Vitae</h3>
         <h1 id="name" class="text-center">Eliézer Chaves</h1>
-        <button id="btn-about" class="btn" onmouseenter="mudaArrowToBlack()" onmouseleave="mudaArrowToWhite()">Sobre mim 
+        <button id="btn-about" class="btn" onmouseenter="mudaArrowToBlack()" onmouseleave="mudaArrowToWhite()" onclick="scrollToAbout()">Sobre mim 
             <span > <img id="arrow" class="arrow" src="lib/arrowWhite.svg" alt=""></span>    
         </button>
 
     </div>
+
     <div id="about" class="container-fluid">
+        <h1 class="section-title text-center">Sobre</h3>
+
+        <div id="description" class="description container w-75">
+            <div class="text-discription">
+                <p id="description-text" class="description">
+                    Busco um emprego na área de tecnologia onde possa agregar meus conhecimentos em mecânica e tecnologia e assim adquirir experiência profissional e pessoal para somar junto à organização elevando o nível da empresa, também estou disposto a novos desafios.  
+                </p>
+            </div>
+        </div>
+
+        <div id="information" class="row container w-75">
+            <div id="dados" class="col ">
+                <div>
+                    <h3 class="text-center">Dados</h3>
+                </div>
+                <div class="list-dados">
+                    <h5 class="grey-font">Nome:</h5>
+                    <p>Eliézer Leite Chaves</p>
+                    <h5 class="grey-font">Nascimento:</h5>
+                    <p>27 de janeiro de 1999</p>
+                    <h5 class="grey-font">Residência:</h5>
+                    <p> <a href="https://goo.gl/maps/Hax8bdW45N7erene7" target="_blank" >
+                        Taubaté - SP <span><img id="map" src="lib/map.svg" alt=""></span>
+                    </a> </p>
+                        
+                </div>
+            </div>
+            <div id="competencias" class="col">
+                <h3 class="text-center">Competências</h3>
+                <div class="list-competencia">
+                    <p>
+                        Office Windows
+                    </p>
+                    <p>
+                        LibreOffice Linux
+                    </p>
+                    <p>
+                        AutoCAD / Inventor
+                    </p>
+                    <p>
+                        Figma Design
+                    </p>
+                    <p>
+                        Inglês intermediário
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="botoes w-75">
+            <div>
+                <button id="button-contato" class="btn button-style">ENTRE EM CONTATO</button>
+            </div>
+            <div>
+                <a href="#" class="btn button-style" 
+                    id="download-cv"
+                    download="CV - Elíezer Chaves.pdf">DOWNLOAD CV</a>
+            </div>
+        </div>
 
     </div>
-    <div id="experiencia" class="container-fluid">
+
+    <div id="experiencia" class="cont ainer-fluid">
 
     </div>
     <div id="formacao" class="container-fluid">
