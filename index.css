@@ -23,10 +23,14 @@ body{
     color: var(--white-font);
 }
 .nav-link:hover{
+    cursor: pointer;
     color: var(--white-font);
     font-weight: bold;
 }
 a:visited{
+    color: var(--white-font);
+}
+a:active{
     color: var(--white-font);
 }
 #hero{
@@ -80,14 +84,14 @@ a:visited{
     }
   }
 /*Media Query para o header*/
-@media only screen and (max-width: 549px) 
+@media (max-width: 549px) 
 {
     .lista
    {
     display: none;
    }   
 }
-@media only screen and (min-width: 550px) {
+@media  (min-width: 550px) {
     #menu-icon{
         display: none;
     }
