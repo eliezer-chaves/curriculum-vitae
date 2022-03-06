@@ -46,6 +46,10 @@ a:visited{
     font-size: 12vh;
     letter-spacing: 2px;
 }
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .btn:focus{
     box-shadow: none;
 }
@@ -55,12 +59,26 @@ a:visited{
     margin-top: 20px;
     border-radius: 20px;
 }
-#btn-about:hover{
-    color: var(--dark-font);
-    border-color: none;
-    background-color: var(--white-font);
-    margin-top: 20px;
+.arrow{
+    height: 15px;
+    width: 15px;
+    color: var(--white-font);
+    margin-left: 10px;
 }
+@media (hover: hover) {
+    .arrow:hover {
+      filter: grayscale(100%);
+    }
+    #menu-icon:hover{
+        cursor: pointer;
+    }
+    #btn-about:hover{
+        color: var(--dark-font);
+        border-color: none;
+        background-color: var(--white-font);
+        margin-top: 20px;
+    }
+  }
 /*Media Query para o header*/
 @media only screen and (max-width: 549px) 
 {
@@ -73,7 +91,4 @@ a:visited{
     #menu-icon{
         display: none;
     }
-}
-#menu-icon:hover{
-    cursor: pointer;
 }
