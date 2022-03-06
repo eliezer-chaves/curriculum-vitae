@@ -148,7 +148,16 @@ a:active{
 }
 
 /* Sobre */
-
+.section-title::after{
+    content: "";
+    width: 150px;
+    background-color: var(--white-font);
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 4px;
+}
 #about{
     background-color: var(--dark-font);
     display: flex;
