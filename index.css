@@ -33,10 +33,12 @@ body{
     color: var(--white-font);
     font-weight: bold;
 }
+a{
+    color: inherit;
+}
 a:visited{
     color: var(--white-font);
     text-decoration: none;
-    
 }
 a:active{
     color: var(--white-font);
