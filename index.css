@@ -15,14 +15,13 @@ body{
 }
 #header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 10vh; 
     background: rgba(12, 12, 12, 0.75);
     color: var(--white-font);
     justify-content: space-around;
 }
-
 .nav-link:hover{
     color: var(--white-font);
     font-weight: bold;
@@ -30,7 +29,6 @@ body{
 a:visited{
     color: var(--white-font);
 }
-
 #hero{
     
     height: 90vh;
@@ -62,4 +60,20 @@ a:visited{
     border-color: none;
     background-color: var(--white-font);
     margin-top: 20px;
+}
+/*Media Query para o header*/
+@media only screen and (max-width: 599px) 
+{
+    .lista
+   {
+    display: none;
+   }   
+}
+@media only screen and (min-width: 600px) {
+    #menu-icon{
+        display: none;
+    }
+}
+#menu-icon:hover{
+    cursor: pointer;
 }
