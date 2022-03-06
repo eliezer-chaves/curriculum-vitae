@@ -36,6 +36,9 @@ body{
 a{
     color: inherit;
 }
+a:focus{
+    color: inherit;
+}
 a:visited{
     color: var(--white-font);
     text-decoration: none;
