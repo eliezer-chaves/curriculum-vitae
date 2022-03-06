@@ -2,10 +2,7 @@
     --white-font: #f3f3f3;
     --dark-font: #0C0C0C;
 }
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins&display=swap');
-
 *{
-    font-family: 'Luxurious Roman', cursive;
     font-family: 'Poppins', sans-serif;
 }
 body{
