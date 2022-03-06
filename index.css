@@ -43,7 +43,7 @@ a:active{
     text-decoration: none;
 }
 #hero{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,14 +143,14 @@ a:active{
 }
 
 /* Sobre */
-.section-title{
-    margin-top: 60px;
-}
+
 #about{
     background-color: var(--dark-font);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
 #description{
     display: flex;
