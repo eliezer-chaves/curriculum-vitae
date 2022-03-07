@@ -16,6 +16,10 @@ function scrollToHome(){
   about.scrollIntoView({behavior: 'smooth'})
   window.scrollTo(0, 0);
 }
+function scrollToExperiencia(){
+  var about = document.getElementById('experiencia');
+  about.scrollIntoView({behavior: 'smooth'})
+}
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {

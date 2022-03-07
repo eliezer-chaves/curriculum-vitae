@@ -33,7 +33,7 @@
             <div id="myDropdown" class="dropdown-content">
                 <a onclick="return scrollToHome()">Home</a>
                 <a onclick="return scrollToAbout()">Sobre</a>
-                <a href="#">Experiência</a>
+                <a onclick="return scrollToExperiencia()">Experiência</a>
                 <a href="#">Formação</a>
                 <a href="#">Contato</a>
             </div>
@@ -48,7 +48,7 @@
                     <a class="nav-link" onclick="scrollToAbout()">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Experiência</a>
+                    <a class="nav-link" onclick="scrollToExperiencia()">Experiência</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link">Formação</a>
@@ -133,7 +133,33 @@
     </div>
 
     <div id="experiencia" class="cont ainer-fluid">
+        <h1 class="section-title text-center">Experiência</h3>
+        <div class="box-experiencia">
+            <div class="card-experiencia">
+                <img class=" img-fluid" src="lib/ciavex.png" alt="Centro de Instrução de Aviação do Exército">
 
+                <h4 class="card-titulo">
+                    Auxiliar Administrativo
+                </h4>
+                <p class="card-periodo">Desde março de 2018</p>
+                <a class="card-instituicao" href="http://www.ciavex.eb.mil.br/" target="_blank">Centro de Instrução de Aviação do Exército, Taubaté - SP</a>
+                <p class="card-descricao">
+                    Atualmente exerço funções administrativas relacionadas aos recursos humanos do CIAvEx, entre outras atribuições na Seção de Pessoal do estabelecimento de ensino.
+                </p>
+            </div>
+            <div class="card-experiencia">
+                <img class="img-fluid" id="plastic-logo" src="lib/plastic.png" alt="Plastic Omnium">
+
+                <h4 class="card-titulo">
+                    Aprendiz de Manutenção
+                </h4>
+                <p class="card-periodo">Janeiro de 2016 - Dezembro de 2017</p>
+                <a class="card-instituicao" href="https://www.plasticomnium.com/en/" target="_blank">Plastic Omnium, Taubaté - SP</a>
+                <p class="card-descricao">
+                    Atuei na área de manutenção, onde realizei manutenções corretivas e preventivas em garras pneumáticas. Também exerci na melhoria e organização do setor de injeção plástica da empresa.
+                </p>
+            </div>
+        </div>
     </div>
     <div id="formacao" class="container-fluid">
 
