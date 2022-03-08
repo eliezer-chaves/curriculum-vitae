@@ -20,6 +20,10 @@ function scrollToExperiencia(){
   var about = document.getElementById('experiencia');
   about.scrollIntoView({behavior: 'smooth'})
 }
+function scrollToFormacao(){
+  var about = document.getElementById('formacao');
+  about.scrollIntoView({behavior: 'smooth'})
+}
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
