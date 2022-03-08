@@ -24,6 +24,10 @@ function scrollToFormacao(){
   var about = document.getElementById('formacao');
   about.scrollIntoView({behavior: 'smooth'})
 }
+function scrollToContato(){
+  var about = document.getElementById('contato');
+  about.scrollIntoView({behavior: 'smooth'})
+}
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {

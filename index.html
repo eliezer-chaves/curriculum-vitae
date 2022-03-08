@@ -35,7 +35,7 @@
                 <a onclick="return scrollToAbout()">Sobre</a>
                 <a onclick="return scrollToExperiencia()">Experiência</a>
                 <a onclick="return scrollToFormacao()">Formação</a>
-                <a href="#">Contato</a>
+                <a onclick="return scrollToContato()">Contato</a>
             </div>
           </div>
 
@@ -54,7 +54,7 @@
                     <a class="nav-link" onclick="scrollToFormacao()">Formação</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Contato</a>
+                    <a class="nav-link" onclick="scrollToContato()">Contato</a>
                 </li>
             </ul>
         </div>                
@@ -70,7 +70,7 @@
     </div>
 
     <div id="about" class="container-fluid">
-        <h1 class="section-title text-center">Sobre</h3>
+        <h1 class="section-title text-center">Sobre</h1>
 
         <div id="description" class="description container w-75">
             <div class="text-discription">
@@ -162,7 +162,7 @@
         </div>
     </div>
     <div id="formacao" class="container-fluid">
-        <h1 class="section-title text-center">Formação Acadêmica</h3>
+        <h1 class="section-title text-center">Formação Acadêmica</h1>
         <div class="" id="box-formacao">
             <div class="card-formacao">
                 <img src="lib/monitor.svg" class="icone-formacao" alt="">
@@ -227,10 +227,48 @@
         </div>
     </div>
     <div id="contato" class="container-fluid">
-        
+        <h1 class="section-title text-center">Contato</h1>
+        <h5 class="subtitle text-center">
+            Entre em contato pelas redes sociais:
+        </h5>
+        <div class="box-contatos">
+            <div class="card-contato">
+                <a href="https://www.linkedin.com/in/eli%C3%A9zer-chaves-1171281a5" target="_blank">
+                    <img class="img-contato" src="lib/linkedin.svg" alt="">
+                </a>
+                
+                <p class="title-contato">
+                    Linkedin
+                </p>
+            </div>
+            <div class="card-contato">
+                <a href="mailto:chaves.eliezer@outlook.com?subject=Currículo Digital" target="_blank">
+                    <img class="img-contato" src="lib/email.svg" alt="">
+                </a>
+                
+                <p class="title-contato">
+                    Email
+                </p>
+            </div>
+            <div class="card-contato">
+                <a href="https://api.whatsapp.com/send?phone=5512992156300&text=Ol%C3%A1%2C%20vim%20pelo%20curr%C3%ADculo%20no%20seu%20site%2C%20podemos%20conversar%3F" target="_blank">
+                    <img class="img-contato" src="lib/wpp.svg" alt="">
+                </a>
+                <p class="title-contato">
+                    WhatsApp
+                </p>
+            </div>
+        </div>
+       
     </div>
-    <div id="footer" class="footes">
-
+    <div id="footer" class="footer">
+        <p>
+            Feito e criado por Eliézer chaves
+        </p>
+        <a href="#">
+            <img src="lib/marca.svg" alt="">
+        </a>
+        
     </div>
 
     <script
