@@ -173,7 +173,7 @@ a:active{
 #description{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
     
 }
 #description-text{
@@ -271,14 +271,14 @@ a:active{
 }
 /*Experiencia*/
 #experiencia{
-padding-top: 90px;
+    padding-top: 90px;
     padding-bottom: 60px;
 }
 .box-experiencia{
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    margin-top: 30px;   
+    margin-top: 060px;   
 }
 .card-experiencia{
     background-color: var(--drak-grey);
@@ -353,7 +353,7 @@ padding-top: 90px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .card-formacao{
     background-color: var(--drak-grey);
@@ -384,15 +384,15 @@ padding-top: 90px;
 }
 /*Contato*/
 #contato{
-padding-top: 90px;
+    padding-top: 90px;
     padding-bottom: 60px;
 }
 .subtitle{
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .box-contatos{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
 }
@@ -401,6 +401,7 @@ padding-top: 90px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px;
 }
 .img-contato{
     width: 60px;
@@ -420,7 +421,7 @@ padding-top: 90px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 30px;
     font-size: 12px;
 }
